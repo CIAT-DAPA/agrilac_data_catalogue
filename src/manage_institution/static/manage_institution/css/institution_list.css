@@ -1,0 +1,74 @@
+/* Estilos específicos para la vista de lista de instituciones */
+.institutions-list {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.institutions-list h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.institutions-list a.btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.institutions-list a.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.institutions-container {
+    margin-top: 20px;
+}
+
+.institution-card {
+    border: 1px solid #e3e6f0;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+}
+
+.institution-card h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.institution-card p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.institution-actions {
+    margin-top: 10px;
+}
+
+.institution-actions a {
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.institution-actions a.btn-warning {
+    background-color: #ffc107;
+    color: white;
+}
+
+.institution-actions a.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+.institution-actions a.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.institution-actions a.btn-danger:hover {
+    background-color: #c82333;
+}
