@@ -18,6 +18,12 @@ h1 {
     margin-bottom: 15px;
 }
 
+select.form-control {
+    min-width: 150px; /* Ajusta este valor según sea necesario */
+    height: auto; /* Permite que el select se ajuste al contenido */
+}
+
+
 label {
     display: block;
     margin-bottom: 5px;
