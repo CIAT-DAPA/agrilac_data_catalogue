@@ -23,7 +23,7 @@
                 <label for="id_owner">Dueño</label>
                 <select name="owner" id="id_owner" class="form-control">
                     {% for user in owners %}
-                        <option value="{{ user.id }}" {% if user.id == form.owner.value %}selected{% endif %}>{{ user.name }}</option>
+                        <option value="{{ user.id }}" {% if user.id == form.owner.value %}selected{% endif %}>{{ user.username }}</option>
                     {% endfor %}
                 </select>
             </div>
